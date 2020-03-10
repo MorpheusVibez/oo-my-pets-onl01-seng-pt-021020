@@ -20,9 +20,9 @@ class Cat
     @@all
   end
 
-  def mood
-    @mood
-  end
+  # def mood
+  #   @mood
+  # end
 
 
 end
