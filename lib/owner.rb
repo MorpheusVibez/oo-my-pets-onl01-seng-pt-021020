@@ -34,6 +34,8 @@ class Owner
   end
 
   def cats
-    Cat.each(self)
+    Cat.select do {cat}
+      cat
+    end
   end
 end
