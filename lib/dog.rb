@@ -15,7 +15,7 @@ class Dog
     @@all
   end
 
-  def mood
-    @mood
+  def mood=(mood)
+    @mood = mood
   end
 end
