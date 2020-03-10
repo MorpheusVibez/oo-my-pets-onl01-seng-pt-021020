@@ -35,6 +35,6 @@ class Owner
 
   def cats
     Cat.save
-    end
+    
   end
 end
