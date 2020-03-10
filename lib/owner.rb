@@ -66,7 +66,7 @@ class Owner
   end
 
   def sell_pets
-    self.dog.count
+    self.Dog.count
   end
 
 end
