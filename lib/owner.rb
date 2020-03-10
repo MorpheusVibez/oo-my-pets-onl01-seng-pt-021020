@@ -34,6 +34,6 @@ class Owner
   end
 
   def cats
-  
+    Cats.each_object(self)
   end
 end
