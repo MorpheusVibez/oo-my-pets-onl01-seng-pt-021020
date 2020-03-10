@@ -70,6 +70,10 @@ class Owner
       dog.mood = "nervous"
       dog.owner = nil
     end
+    Cat.all.select do |cat|
+      cat.mood = "nervous"
+      cat.owner = nil
+    end
   end
 
 end
