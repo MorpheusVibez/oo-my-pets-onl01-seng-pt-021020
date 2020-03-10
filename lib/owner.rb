@@ -34,6 +34,7 @@ class Owner
   end
 
   def cats
+    Cats.new
     Cat.all
   end
 end
